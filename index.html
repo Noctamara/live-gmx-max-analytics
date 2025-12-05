@@ -1,17 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIVE GMX Max Analytics - TikTok</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Overview LIVE GMX Max TikTok</h1>
-        <p>Dashboard analytics sedang dalam development...</p>
-    </div>
-    
-    <script src="script.js"></script>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LIVE GMV Max TikTok Ads</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+     
+    <body>
+
+        <!-- Container Section -->
+        <div class="container">
+
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <h1>Overview Live GMV Max Tiktok Ads</h1>
+                    <p class="date-range">01/11/2025 - 30/11/2025</p>
+                </div>
+
+                <div class="header-right">
+                    <select class="store-selector">
+                        <option>Little Twinkle</option>
+                        <option>TGN (OKSsun)</option>
+                    </select>
+                </div>
+            </header>
+
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+                <!-- Card Cost-->
+                <div class="stat-card" data-metric="cost">
+                    <div class="stat-label">Cost</div>
+                    <div class="stat-value">Rp 13.701611</div>
+                </div>
+
+                <!-- Card Order -->
+                <div class="stat-card" data-metric="orders">
+                    <div class="stat-label">Orders (SKU)</div>
+                    <div class="stat-value">1155</div>
+                </div>
+
+                <!-- Card CPO -->
+                <div class="stat-card" data-metric="cpo">
+                    <div class="stat-label">Cost per Order</div>
+                    <div class="stat-value">Rp11.862,87</div>
+                </div>
+
+                <!-- Card Revenue -->
+                <div class="stat-card" data-metric="revenue">
+                    <div class="stat-label">Gross Revenue</div>
+                    <div class="stat-value">Rp131.381.829</div>
+                </div>
+
+                <!-- Card ROI -->
+                <div class="stat-card" data-metric="roi">
+                    <div class="stat-label">ROI</div>
+                    <div class="stat-value">9.59</div>
+                </div>
+            </div>
+
+            <!-- Chart -->
+            <div class="chart-container">
+                <canvas id="mainChart"></canvas>
+            </div>
+
+        </div><!-- End of Container Section -->
+
+    </body>
 </html>
